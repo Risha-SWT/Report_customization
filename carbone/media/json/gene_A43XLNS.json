@@ -1,0 +1,29 @@
+{
+  "patient": {
+    "id": "P123456",
+    "name": "Jane Doe",
+    "age": 34,
+    "gender": "Female",
+    "sample_id": "SMP-2024-001"
+  },
+  "analysis_date": "2025-04-16",
+  "variants": [
+    {
+      "gene": "BRCA1",
+      "variant": "c.68_69delAG",
+      "zygosity": "Heterozygous",
+      "type": "Deletion",
+      "clinical_significance": "Pathogenic",
+      "dbSNP": "rs80357713"
+    },
+    {
+      "gene": "TP53",
+      "variant": "c.743G>A (p.Arg248Gln)",
+      "zygosity": "Homozygous",
+      "type": "Missense",
+      "clinical_significance": "Likely pathogenic",
+      "dbSNP": "rs28934575"
+    }
+  ],
+  "comments": "Variants detected are associated with increased cancer risk. Recommend genetic counseling."
+}

@@ -1,0 +1,3 @@
+# requirements.txt
+Django==4.2.10
+carbone-sdk==1.0.0

@@ -1,0 +1,21 @@
+{
+    "patient": {
+        "id": "SPG123",
+        "name": "HONEY",
+        "age": "{patient.age}",
+        "gender": "{patient.gender}",
+        "sample_id": "{patient.sample_id}"
+    },
+    "analysis_date": "{analysis_date}",
+    "variants": [
+        {
+            "gene": "{variants[i].gene}",
+            "variant": "{variants[i].variant}",
+            "zygosity": "{variants[i].zygosity}",
+            "type": "{variants[i].type}",
+            "clinical_significance": "{variants[i].clinical_significance}",
+            "dbSNP": "{variants[i].dbSNP}"
+        }
+    ],
+    "comments": "{comments}"
+}

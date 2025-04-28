@@ -1,0 +1,175 @@
+{
+    "dynamic": {
+        "caseMetaData": {
+            "proband": {
+                "age": 0,
+                "ageUnit": "Year(s)",
+                "sex": "Unknown",
+                "sampleReceived": "Apr 03 2025",
+                "natureOfSample": "Blood",
+                "consanguinity": "Unknown",
+                "sampleReference": "test_hg38",
+                "casetype": "Proband-Only",
+                "varianttype": "CH",
+                "typeOfTest": "Whole Exome",
+                "PhenotypeDesc": ""
+            },
+            "mother": {},
+            "father": {},
+            "spouse": {},
+            "sibling1": {},
+            "sibling2": {},
+            "sibling3": {}
+        },
+        "clinicalSummary": {
+            "description": "Clinical Summary",
+            "format": "para",
+            "data": [
+                "A 0.0 Year(s) old baby with gender - (not specified) born to parents with unknown consanguinity was referred for genetic evaluation. No clinical symptoms / phenotypes were mentioned."
+            ]
+        },
+        "result": {
+            "description": "Result",
+            "format": "para",
+            "data": "Plausible cause was not identified."
+        },
+        "additionFindingsHeader": {
+            "description": "Additional Findings: ",
+            "format": "para",
+            "data": [
+                "Variant of unknown significance was identified."
+            ]
+        },
+        "variantInfo": {
+            "description": "Variant Information",
+            "format": "table",
+            "data": {
+                "header": [
+                    "Sample",
+                    "Gene (Transcript)",
+                    "Location",
+                    "Variation",
+                    "Zygosity",
+                    "Classification",
+                    "Disease (OMIM)",
+                    "Inheritance"
+                ],
+                "rowData": [
+                    [
+                        "test_hg38",
+                        "PKD1",
+                        "chr16:2106263",
+                        "NM_001009944.3:c.7531G>A, NP_001009944.3:p.Ala2511Thr",
+                        "Heterozygous",
+                        "VUS",
+                        "'POLYCYSTIC KIDNEY DISEASE 1 WITH OR WITHOUT POLYCYSTIC LIVER DISEASE'",
+                        "'Autosomal dominant'"
+                    ]
+                ]
+            }
+        },
+        "databaseInformation": [
+            {
+                "description": "Database Information PKD1 : NM_001009944.3:c.7531G>A [NP_001009944.3:p.Ala2511Thr]",
+                "format": "table",
+                "data": {
+                    "header": [
+                        "1000 Genomes",
+                        "IndiGen",
+                        "gnomAD_exome",
+                        "gnomAD_genome",
+                        "inhousedb",
+                        "GME"
+                    ],
+                    "rowData": [
+                        [
+                            "Absent",
+                            "Present",
+                            "Absent",
+                            "Absent",
+                            "Absent",
+                            "Absent"
+                        ],
+                        [
+                            "MAF:NA",
+                            "MAF:0.0",
+                            "MAF:NA",
+                            "MAF:NA",
+                            "MAF:NA",
+                            "MAF:NA"
+                        ]
+                    ]
+                }
+            }
+        ],
+        "interpretation": {
+            "description": "Interpretation",
+            "format": "para",
+            "data": "A Heterozygous variant NM_001009944.3:c.7531G>A, [ NP_001009944.3:p.Ala2511Thr] in PKD1[MIM*601313] gene was identified by Whole Exome Proband-Only analysis. The Heterozygous variations in the PKD1 gene are known to cause Autosomal dominant POLYCYSTIC KIDNEY DISEASE 1 WITH OR WITHOUT POLYCYSTIC LIVER DISEASE [MIM#173900]. This variant is not present in publicly available databases like ['1000 Genomes', 'Genome Aggregation Database Exome (gnomAD_exome)', 'Genome Aggregation Database Genome (gnomAD_genome)', 'Inhouse exome database']. This variant is present in [['Exome Variant Server', '0.0']]."
+        },
+        "recommendation": {
+            "description": "Recommendations",
+            "format": "bullet",
+            "data": [
+                "Genetic counselling is advised. For assistance in locating nearby genetic counseling services, please contact the laboratory [Ph.No. -------].",
+                "Validation of the variant detected by Sanger sequencing is recommended.",
+                "Targeted mutation analysis in the parents is recommended to document possible de novo status of the variant detected in the proband.",
+                "Please note that the classification of variants may change over time if additional information becomes available."
+            ]
+        },
+        "test_methodology": {
+            "description": "Test Methodology",
+            "format": "paragraph",
+            "data": "To be filled by organization based on the test methodology."
+        }
+    },
+    "static": {
+        "note": {
+            "data": [
+                "Incidental or secondary findings (if any) that meet the ACMG guidelines can be provided upon request.",
+                "List of variants of unknown significance can be provided on request."
+            ],
+            "format": "bullet",
+            "description": "Notes"
+        },
+        "terms": {
+            "data": {
+                "header": [
+                    "Variant",
+                    "Description"
+                ],
+                "rowData": [
+                    [
+                        "Variant",
+                        "A change in a gene. This could be disease causing (pathogenic) or not disease causing (benign)."
+                    ],
+                    [
+                        "Pathogenic",
+                        "A disease causing variation in a gene which can explain the patient's symptoms has been detected. This usually means that a suspected disorder for which testing had been requested has been confirmed."
+                    ]
+                ],
+                "dimensions": [
+                    2,
+                    2
+                ]
+            },
+            "format": "table",
+            "description": "Terms and Conditions"
+        },
+        "limitation": {
+            "data": "Absence of a plausible explanation for the reported phenotype by exome sequencing does not exclude a genetic basis of the patient's condition. Some types of genetic abnormalities, such as copy number changes, variants in non-coding regions, large insertions or deletions etc. may not be detectable in this exome analysis test. It is possible that the genomic region where a disease causing mutation exists in the proband was not captured in the current test and therefore was not detected. Additionally, it is possible that a particular genetic abnormality may not be recognized as the underlying cause of the genetic disorder due to incomplete scientific knowledge about the function of all genes in the human genome and the impact of variants in those genes. Only variants in genes associated with the medical condition, or thought to be clinically relevant potentially for the probands medical condition, are reported here.",
+            "format": "paragraph",
+            "description": "Limitations"
+        },
+        "disclaimer": {
+            "data": [
+                "Intronic and untranslated region variants are not assessed using this method.",
+                "The classification of variants may change over time.",
+                "Although all precautions have been taken during the test, the currently available data indicate that the chances of technical error are 2-3%.",
+                "For any further questions please contact the laboratory [Ph.No. -------]."
+            ],
+            "format": "bullet",
+            "description": "Disclaimer"
+        }
+    }
+}

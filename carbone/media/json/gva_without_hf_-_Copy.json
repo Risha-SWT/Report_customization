@@ -1,0 +1,46 @@
+{
+  "patient": {
+    "name": "DrSeq",
+    "sexAge": "Male/35",
+    "dateReceived": "07-Aug-2024",
+    "indication": "Presented with chest pain, along with shortness of breath, productive cough",
+    "clinicalIndication": "Case of right secondary spontaneous pneumothorax / Bronchial Asthma",
+    "gene": {
+      "geneAndTranscript": "FLCN (-) NM_144997.7",
+      "location": "Exon 10",
+      "variant": "c.1150_1160delGTCCAGTCAGC (p.Val384Phefs*2)",
+      "zygosity": "Heterozygous /Autosomal Dominant",
+      "omimPhenotype": "Pneumothorax, primary spontaneous/ Birt-Hogg-Dube syndrome",
+      "clinicalSignificance": "Likely pathogenic (PM2, PVS1, PPS)",
+      "geneName": "FLCN",
+      "locationDetails": "Exon 10",
+      "genomicPosition": "chr17: g.17217085_17217095delGCTGACTGGAC",
+      "variantDescription": "A frameshift deletion 'GTCCAGTCAGC' detected at nucleotide position 1150_1160.",
+      "variantEffect": "Predicted to cause loss of normal protein function through protein truncation caused a frameshift mutation.",
+      "inSilicoPredictions": "The p.Val384Phefs*2 variant is a loss of function variant in the gene FLCN...",
+      "populationFrequency": "The p.Val384Phefs*2 variant is novel (not in any individuals) in gnomAD All...",
+      "effect": "Frameshift",
+      "transcript": "NM_144997.7",
+      "proteinChange": "p.Val384Phefs*2",
+      "codingChange": "c.1150_1160delGTCCAGTCAGC",
+      "classification": "Likely pathogenic variant"
+    },
+    "recommendations": {
+      "1": "Segregation analysis of the variant by Sanger sequencing is recommended in affected and unaffected members of the family.",
+      "2": "Genetic counseling is advised for interpretation on the consequences of the variant(s).",
+      "3": "We recommend confirming the presence of these variants by Sanger Sequencing."
+    },
+    "methodology": {
+      "1": "Next Generation Sequencing: DNA extracted from Blood, Saliva, Amniotic fluid, CVS or any other standard source...",
+      "2": "We follow the Illumina DRAGEN Bio-IT Platform for identification of variants in the sample...",
+      "3": "This assay (Whole exome sequencing) covers 20321 genes including 37 mitochondria genes.",
+      "4": "Haplotype caller has been used to identify variants which are relevant to the clinical indication.",
+      "5": "In addition to SNVs and small Indels, copy number variants (CNVs) are detected..."
+    },
+    "limitations": {
+      "1": "It should be noted that this test does not sequence all bases in a human genome...",
+      "2": "Testing has been performed assuming that the sample received belongs to the above named individual...",
+      "3": "Test results are interpreted in the context of clinical findings, family history and other laboratory data."
+    }
+  }
+}
